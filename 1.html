@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mastermind</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/1.css">
+	</head>
+	<body>
+
+		<section id="titlescreen">
+			<h1>Mastermind</h1>
+
+			<button onclick="launch()">Start</button>
+		</section>
+
+		<section id="game">
+			<section id="gamewindow">
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+
+				<div class="result">
+					<aside class="good">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+						<img src="img/correct.png" class="correct">
+					</aside>
+					<main>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+						<div class="color"></div>
+					</main>
+					<aside class="close">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+						<img src="img/miss.png" class="miss">
+					</aside>
+				</div>
+			</section>
+			
+			<section id="info">
+				<aside>
+					<h1>Info</h1>
+
+					<p>Welcome to Mastermind, the objective of this game is to guess the mastercode, there are diffrent colors, it is allowed to have more of the same color in the code, if you fail to guess it within 12 tries you fail. Good luck have fun<br><br>
+					-Stijn</p>
+				</aside>
+			</section>
+
+			<section id="controls">
+				<section id="butts">
+					<img src="img/button_red.png" class="button" alt="red" onclick="button_color(0)">
+					<img src="img/button_green.png" class="button" alt="green" onclick="button_color(1)">
+					<img src="img/button_darkgreen.png" class="button" alt="dark green" onclick="button_color(2)">
+					<img src="img/button_blue.png" class="button" alt="blue" onclick="button_color(3)">
+					<img src="img/button_purple.png" class="button" alt="purple" onclick="button_color(4)">
+					<img src="img/button_gray.png" class="button" alt="gray" onclick="button_color(5)">
+				</section>
+			</section>
+		</section>
+
+		<script type="text/javascript" src="js/1.js"></script>
+	</body>
+</html>
