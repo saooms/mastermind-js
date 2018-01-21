@@ -20,11 +20,11 @@ section[4].onmouseover = function() {appear()};
 section[4].onmouseout = function() {dissepear()};
 
 function appear() {
-	section[5].style.animation = "1s appear forwards";
+	section[5].style.animation = "0.5s appear forwards";
 }
 
 function dissepear() {
-	section[5].style.animation = "1s dissepear forwards";
+	section[5].style.animation = "0.5s dissepear forwards";
 }
 
 function launch() {
@@ -67,6 +67,7 @@ function check() {
 			good++;
 			resultc++;
 			delete mastercode[position];
+			guesscode.splice(position, 1, "used");
 		}
 		position++;
 	}
